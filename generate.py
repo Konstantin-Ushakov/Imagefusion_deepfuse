@@ -1,6 +1,6 @@
 # Use a trained DeepFuse Net to generate
-
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 
 from deep_fuse_net import DeepFuseNet

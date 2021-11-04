@@ -1,5 +1,5 @@
-
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from tensorflow.python import pywrap_tensorflow
 
 WEIGHT_INIT_STDDEV = 0.1
